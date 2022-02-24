@@ -9,19 +9,8 @@
      * `Bot ayarları`
        * Daha sonrasında `ayarlar.json` dosyasına girip gerekli alanlarını dolduruyoruz.
      * `Botu Çalıştırma`
-       * Son olarak botu çalıştırmak için dosyalarımıza girip `shift` + `sağtık` yapıyoruz ve komut istemcisini çalıştırıyoruz. Ardından `node laving.js` veya `node .` şeklinde botumuzu çalıştabiliriz.
+       * Son olarak botu çalıştırmak için dosyalarımıza girip `shift` + `sağtık` yapıyoruz ve komut istemcisini çalıştırıyoruz. Ardından `node atiastark.js` veya `node .` şeklinde botumuzu çalıştabiliriz.
   - [X] **Önemli Bilgiler;** 
-    * `Hatırlatma;`
-      * Eğer botta hata çıkarsa `Laving Salvatore.#0001` adresinden ulaşarak destek alabilirsiniz.
-      * Bot `null`'a aittir boş laf yapıp canımı sıkmayın izin aldım paylaşmak için.
-      * 25 Star gelirse çok daha gelişmiş ve güzel hali gelicektir.
+    * `Hatırlatma;
       * Star ve Fork atarak destek olabilirsiniz.
-      
-  - [X] **Proje Sahibi;** 
-    * `Null;`
-      * Projenin orjinal linki: https://github.com/This-null/discord-null-welcome-bot
-      * Null Github: https://github.com/This-null
-      * Null Discord: null Salvatore#1002
-
-  - [X] **GELİYOR..**
-  - Arkadaşlar https://github.com/thelaving/laving-advancedmoderation bu projeye 30 star gelirse çok güzel bir moderation bot gelicek repoya star ve fork atmayı unutmayın iyi kodlamalar.
+     
