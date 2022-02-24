@@ -26,15 +26,15 @@ for (let index = 0; index < config.botTokenleri.length; index++) {
         if (cur.channel && (cur.channel.id === lavingcode.sesKanallarıID[index])) {
             if (cur.channelID === prev.channelID) return;
             if (selamlı.includes(cur.member.id) && (cur.member.roles.highest.rawPosition < cur.guild.roles.cache.get(laving.registerRolID).rawPosition)) {
-                ses = await sanullcum.play('./atiastarkVoice/lavinghosgeldin.mp3');
+                ses = await sanullcum.play('./atiastarkVoice/atiastarkhosgeldin.mp3');
                 return;
             }
             if ((cur.member.roles.highest.rawPosition < cur.guild.roles.cache.get(laving.registerRolID).rawPosition)) {
-                ses = await sanullcum.play('./atiastarkVoice/lavinghosgeldin.mp3');
+                ses = await sanullcum.play('./atiastarkVoice/atiastarkhosgeldin.mp3');
                 selamlı.push(cur.member.user.id);
                 console.log(selamlı);
             } else if (cur.member.roles.highest.rawPosition > cur.guild.roles.cache.get(laving.registerRolID).rawPosition) {
-                ses = await sanullcum.play('./atiastarkVoice/yetkili.mp3');
+                ses = await sanullcum.play('./atiastarkVoice/atiastarkyetkili.mp3');
                 selamlı.push(cur.member.user.id);
                 console.log(selamlı);
             }
